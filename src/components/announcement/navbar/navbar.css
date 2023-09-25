@@ -1,0 +1,22 @@
+.nav_bar,
+ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+ul li {
+  list-style: none;
+  border-bottom: 3px solid white;
+}
+li,
+ul li:hover {
+  border-bottom: 3px solid #4e4681;
+}
+.list-items {
+  padding: 10px;
+  text-decoration: none;
+  color: grey;
+  font-size: 20px;
+  font-weight: bold;
+  list-style: none;
+}

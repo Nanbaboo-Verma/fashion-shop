@@ -1,0 +1,21 @@
+.blogContainerDiv {
+  padding: 2%;
+  display: flex;
+}
+.leftImageContainer {
+  height: 390px;
+  width: 50%;
+  margin-right: 2%;
+  border-radius: 5px;
+  background-image: url("https://cdn.shopify.com/s/files/1/0550/4411/2561/files/ImageText1_900x.jpg?v=1615380285");
+  object-fit: contain;
+  background-position: 50%;
+  background-size: cover;
+}
+.righeImageContainer {
+  border-radius: 2%;
+  width: 50%;
+  background-image: url("https://cdn.shopify.com/s/files/1/0550/4411/2561/files/ImageText2_900x.jpg?v=1615380305");
+  background-size: cover;
+  background-position: 50%;
+}

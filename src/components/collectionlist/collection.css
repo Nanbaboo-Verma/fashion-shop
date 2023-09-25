@@ -1,0 +1,27 @@
+.collectionList {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px 10px 0px;
+  color: #303030;
+  font-size: 50px;
+}
+.collectionInnerDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.collectionItems {
+  margin: 2%;
+}
+.collectionImage {
+  height: 100%;
+  width: 100%;
+}
+.collectionData {
+  position: relative;
+  top: -15%;
+  z-index: 1;
+  left: 5%;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}

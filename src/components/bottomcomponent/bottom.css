@@ -1,0 +1,101 @@
+.bottomTopContainerDiv {
+  height: 570px;
+  background-color: #1b1735;
+  color: white;
+}
+.bottomOuterContainerDiv {
+  /* border: 2px solid red; */
+  display: flex;
+}
+
+.avatarContainerDiv {
+  /* border: 3px solid rgb(0, 255, 13); */
+  width: 40%;
+  margin: 60px 10px 0px 95px;
+}
+.avatarParaContainer {
+  margin-top: 30px;
+  line-height: 25px;
+  color: #9596a0;
+}
+.addressContainer {
+  /* border: 3px solid rgb(153, 0, 255); */
+  margin-top: 50px;
+  display: flex;
+}
+/* Address */
+
+.address {
+  /* border: 3px solid rgb(102, 255, 0); */
+}
+.address p {
+  margin-top: 20px;
+  line-height: 25px;
+}
+.phone {
+  /* border: 3px solid rgb(209, 114, 25); */
+  padding: 0px 0px 0px 20px;
+}
+.phone p,
+a {
+  color: white;
+  font-weight: normal;
+  padding: 10px;
+  text-decoration: none;
+}
+.socialMedial i {
+  padding: 10px;
+
+  font-size: 25px;
+}
+/* Shop Avatar */
+.shopAvatarContainer {
+  /* border: 3px solid rgb(0, 140, 255); */
+  width: 25%;
+  margin-top: 75px;
+}
+.shopAvatarInnerContainer {
+  margin: 60px;
+  /* border: 3px solid rgb(0, 140, 255); */
+}
+.shopAvatarInnerContainer p a {
+  margin-top: 25px;
+  line-height: 50px;
+  color: #7f7e80;
+}
+
+/* Customer Servoce */
+.customerServiceContainer {
+  /* border: 3px solid rgb(102, 255, 0); */
+  width: 25%;
+  margin-top: 100px;
+}
+.customerInnerServiceContainer {
+  margin: 40px;
+  /* border: 3px solid rgb(0, 140, 255); */
+}
+.customerInnerServiceContainer p a {
+  margin-top: 25px;
+  line-height: 50px;
+  color: #7f7e80;
+}
+/* fOLLOW uS */
+
+.followUsContainer {
+  /* border: 3px solid rgb(0, 255, 242); */
+  width: 25%;
+  width: 25%;
+  margin-top: 100px;
+}
+.followUsInnerContainer {
+  margin: 40px;
+}
+.followUsInnerContainer p a {
+  margin-top: 25px;
+  line-height: 50px;
+  color: #7f7e80;
+}
+.copyright-container {
+  margin-top: 90px;
+  text-align: center;
+}

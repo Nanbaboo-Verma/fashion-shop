@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.announcement_bar {
+  background-color: #4e4681;
+  text-align: center;
+  color: white;
+  padding: 14px;
+  font-size: 19px;
+}

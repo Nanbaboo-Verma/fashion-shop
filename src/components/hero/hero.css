@@ -1,0 +1,44 @@
+.outerDiv {
+  margin-top: 10px;
+}
+.innerDiv {
+  /* border: 2px solid rgb(0, 102, 255); */
+  height: 500px;
+  margin: 0px 23px 0px 23px;
+
+  display: flex;
+}
+
+.heroImage {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.imageHeading {
+  position: absolute;
+  top: 400px;
+  z-index: 1;
+  left: 7%;
+  font-family: "Alfa Slab One", cursive;
+  color: white;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  font-size: 50px;
+}
+.shopDiv {
+  /* border: 5px solid rgb(51, 255, 0); */
+  position: absolute;
+  left: 45%;
+}
+.shopButton {
+  margin-top: 330px;
+  border: none;
+  padding: 15px 55px 15px 55px;
+  background-color: #f0a73e;
+  border-radius: 40px;
+  font-size: 20px;
+  color: #303030;
+  font-weight: bold;
+}

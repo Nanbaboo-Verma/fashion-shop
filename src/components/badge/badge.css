@@ -1,0 +1,20 @@
+.badgeDiv {
+  margin: 45px 23px 45px 23px;
+  display: flex;
+  justify-content: space-between;
+}
+.badgeSpan {
+  background-color: #e0dede;
+  padding: 3% 11%;
+}
+.badgeShowIcon {
+  height: 50px;
+  width: 50px;
+  margin-left: 30%;
+}
+
+.badgeDataValue {
+  color: #545779;
+  font-weight: bold;
+  font-size: 18px;
+}

@@ -1,0 +1,135 @@
+.searchBatOuterDiv {
+  margin-top: 10px;
+}
+.searchbarInnerDiv {
+  margin-top: 10px;
+}
+input[type="text"]::placeholder {
+  text-align: left;
+}
+input:focus {
+  border: 1px solid rebeccapurple;
+}
+.search_bar {
+  padding: 10px 30px 11px 10px;
+  height: 20px;
+  outline: none;
+  height: 45px;
+  border: 1px solid #bbbbbb;
+  border-radius: 30px;
+  /* cursor: pointer; */
+  font-size: 20px;
+  width: 100%;
+  font-size: 14px;
+}
+.search_icon {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 50%;
+  right: 19px;
+  transform: translateY(-50%);
+}
+.user_icon {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: 6px;
+}
+.cart_icon {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  top: 5px;
+}
+.med-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.searchbarInnerDiv {
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.search_span {
+  flex-grow: 1;
+  padding: 0 15px;
+  position: relative;
+}
+* {
+  box-sizing: border-box;
+}
+.header-account-icons .account-icon {
+  width: 30px;
+}
+.header-account-icons a:not(:last-child) {
+  margin-right: 10px;
+}
+.header-account-icons a {
+  padding: 0;
+  display: inline-block;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.d-flex-noWrap {
+  flex-wrap: nowrap;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-space-between {
+  justify-content: center;
+}
+.justify-space-around {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+
+.w-33 {
+  width: 33.33%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-100 {
+  width: 100%;
+  color: green;
+}
+@media screen and (min-width: 991px) {
+  .w-d-25 {
+    width: 25%;
+    color: red;
+  }
+  .w-d-33 {
+    width: 33.33%;
+  }
+  .w-d-50 {
+    width: 50%;
+  }
+  .w-d-100 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 990px) and (min-width: 640px) {
+  .w-t-25 {
+    width: 25%;
+  }
+  .w-t-33 {
+    width: 33.33%;
+  }
+  .w-t-50 {
+    width: 50%;
+    color: yellow;
+  }
+  .w-t-100 {
+    width: 100%;
+  }
+}
